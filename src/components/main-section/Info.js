@@ -8,7 +8,7 @@ import Stacks from "./Stacks";
 
 const Info = ()=>{
 
-    const icons = [{icon:"mobile-alt", title:'Responsive', text:'Design for all type of plataforms'}, {icon:"rocket",title:'Dynamic', text:'We looking for Dynamics designs'}, {icon:"chalkboard-teacher", title:'Friendly usage', text:'Simple to understand for all users'}, {icon:"highlighter", title:'Estethics Desings', text:'The best designs for your business'}];
+    const icons = [{icon:"mobile-alt", title:'Responsive', text:'Design for all type of plataforms'}, {icon:"rocket",title:'Dynamic', text:'We are looking for dynamics designs'}, {icon:"chalkboard-teacher", title:'Friendly use', text:'Simple to understand for all users'}, {icon:"highlighter", title:'Aesthetics Desings', text:'The best designs for your business'}];
 
     const styles = {background:'rgb(0, 0, 29)', border:'3px solid cornflowerblue', width:'5rem', height:'5rem'}
 
@@ -59,10 +59,10 @@ const Info = ()=>{
         <section id="contact" style={{background:'rgb(0, 0, 29)',}} className="w-100 mt-5 d-flex justify-content-center">
             <div className="w-75 rounded row pb-5" style={{ position:'relative', bottom:'100px', background:'rgb(47, 90, 168)'}}>
                 <div className="col-12 col-md-4">
-                    <h3 className="App-subtitle fs-2 ms-3 mt-5 text-center text-white">You liked what you saw?</h3>
+                    <h3 className="App-subtitle fs-2 ms-3 mt-5 text-center text-white">Did you liked what you see?</h3>
                 </div>
                 <div className="col-12 col-md-4">
-                    <p className="App-paragraph fs-5 text-white mt-5 text-center">If you are interested in working together, Get in touch with me!</p>
+                    <p className="App-paragraph fs-5 text-white mt-5 text-center">If you are interested in working together, get in touch with me!</p>
                 </div>
                 <div className="col-12 col-md-4 d-flex justify-content-center">
                     <a href='mailto:garciamatias159@gmail.com'>
