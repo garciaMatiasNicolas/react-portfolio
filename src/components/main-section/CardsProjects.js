@@ -7,8 +7,8 @@ const CardsProjects = ({name, description, url, style, image, bg}) => {
               <img src={image} className={style} />
               <div className='mask hover-overlay d-flex flex-column justify-content-center' style={{ backgroundColor: 'rgba(0, 0, 0, 0.950)' }}>
                 <div className='d-flex flex-column justify-content-evenly align-items-center w-100 h-100'>
-                    <h3 className='App-subtitle text-white fs-2'>{name}</h3>
-                    <p className='App-paragraph text-white fs-4 text-center'>{description}</p>
+                    <h3 className='App-subtitle text-white'>{name}</h3>
+                    <p className='App-paragraph text-white text-center'>{description}</p>
                     <a target='_blank' href={url}>
                         <button className='btn btn-outline-info App-paragraph'>Visit website</button>
                     </a>
